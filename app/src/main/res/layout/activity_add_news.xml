@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewsAct"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/addTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input title"/>
+
+    <EditText
+        android:id="@+id/addAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input author"/>
+
+    <EditText
+        android:id="@+id/addImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input image link"/>
+
+    <EditText
+        android:id="@+id/addDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="input description"/>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:text="save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
